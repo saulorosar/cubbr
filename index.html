@@ -2,62 +2,53 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valor Atual do CUB Nacional - Custo Unitário Básico da Construção</title>
-    <meta name="description"
-        content="Confira o valor atual do CUB Nacional e dos estados brasileiros. O CUB é um indicador essencial para a construção civil.">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valor Atual do CUB Nacional - Custo Unitário Básico da Construção</title>
+  <meta name="description"
+    content="Confira o valor atual do CUB Nacional. O CUB é um indicador essencial para a construção civil.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Valor Atual do CUB Nacional</h1>
-        <nav>
-            <ul>
-                <li><a href="#cub-nacional">CUB Nacional</a></li>
-                <li><a href="#cub-estados">CUB por Estado</a></li>
-                <li><a href="#sobre">Sobre o CUB</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="cub-nacional">
-            <h2>CUB Nacional</h2>
-            <div class="cub-value">
-                <span id="cub-value">R$ 1.234,56</span>
-                <p class="update-info">Última atualização: 26 de junho de 2024</p>
-            </div>
-        </section>
-        <section id="cub-estados">
-            <h2>CUB por Estado</h2>
-            <!-- Conteúdo para CUB por Estado -->
-        </section>
-        <section id="sobre">
-            <h2>Sobre o CUB</h2>
-            <p>O CUB (Custo Unitário Básico da Construção Civil) é um indicador que representa o custo básico para
-                construção por metro quadrado. Ele é utilizado por profissionais da construção civil, engenheiros,
-                arquitetos, entre outros.</p>
-        </section>
-        <section id="contato">
-            <h2>Contato</h2>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 CUB Brasil. Todos os direitos reservados.</p>
-    </footer>
-    <script src="script.js"></script>
+  <header>
+    <h1>Valor Atual do CUB Nacional</h1>
+  </header>
+  <main>
+    <section id="cub-nacional">
+      <h2>CUB Nacional</h2>
+      <div class="cub-value">
+        <span id="cub-value">R$ 1.234,56</span>
+        <p class="update-info">Última atualização: 26 de junho de 2024</p>
+      </div>
+      <div class="description">
+        <p>O CUB (Custo Unitário Básico da Construção Civil) é um indicador que representa o custo básico para
+          construção por metro quadrado. Ele é utilizado por profissionais da construção civil, engenheiros, arquitetos,
+          entre outros.</p>
+      </div>
+    </section>
+    <section id="sobre">
+      <h2>Sobre o CUB</h2>
+      <p>O CUB (Custo Unitário Básico da Construção Civil) é calculado com base em diversos parâmetros e é atualizado
+        mensalmente pelas entidades responsáveis. Ele serve como referência para orçamentos e projetos na construção
+        civil.</p>
+    </section>
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 CUB Brasil. Todos os direitos reservados.</p>
+  </footer>
 </body>
 
 </html>
